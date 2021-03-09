@@ -397,11 +397,9 @@
 }
 
 .image-6 {
-  max-width: 45vh;
+  width: 4vh;
+  max-width: 33vh;
   padding-left: 0px;
-  -webkit-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  transform: rotate(-90deg);
 }
 
 .arrow {
@@ -417,7 +415,7 @@
 }
 
 .columns-2 {
-  margin-top: -80px;
+  margin-top: -140px;
 }
 
 @media screen and (max-width: 479px) {
@@ -582,6 +580,24 @@
 
   .bold-text {
     font-size: 40px;
+  }
+
+  .link-block-2 {
+    max-width: none;
+    padding-left: 0px;
+  }
+
+  .column {
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+
+  .image-6 {
+    width: 5vh;
+    max-width: 20vh;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
   }
 
   .arrow {
