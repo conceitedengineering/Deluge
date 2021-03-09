@@ -89,6 +89,7 @@
 }
 
 .bottom-text {
+  margin-right: 105px;
   padding-bottom: 0px;
 }
 
@@ -138,6 +139,7 @@
   right: 0%;
   bottom: 0%;
   overflow: visible;
+  width: 100vh;
   padding: 0px;
   border-style: dotted;
   border-width: 0px;
@@ -179,17 +181,27 @@
 }
 
 .texty.bloc.about {
+  overflow: hidden;
+  width: 75vw;
+  margin-right: 0px;
   -webkit-transform: translate3d(0px, 0px, 90px);
   transform: translate3d(0px, 0px, 90px);
+  text-align: justify;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 
 .texty.wave._1 {
+  overflow: visible;
   -webkit-transform: translate3d(0px, 0px, -143px);
   transform: translate3d(0px, 0px, -143px);
+  font-size: 12px;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
+}
+
+.texty._1 {
+  font-size: 12px;
 }
 
 .image-2 {
@@ -225,7 +237,12 @@
   top: 0px;
   bottom: auto;
   display: block;
+  width: auto;
   padding-top: 0px;
+  -webkit-transform: translate3d(0px, 0px, -100px);
+  transform: translate3d(0px, 0px, -100px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 .events {
@@ -262,7 +279,7 @@
 
 .mainframe {
   margin-top: -100px;
-  background-image: linear-gradient(155deg, #1a9135, #181d4e 64%, #181d4e 102%);
+  background-image: linear-gradient(155deg, #1a9135, #181d4e 88%, #181d4e 102%);
 }
 
 .lottie-animation-2 {
@@ -383,11 +400,13 @@
 }
 
 .column {
+  position: static;
   padding-top: 20px;
   padding-left: 220px;
 }
 
 .columns {
+  margin-right: auto;
   margin-bottom: 20px;
 }
 
@@ -397,8 +416,8 @@
 }
 
 .image-6 {
-  width: auto;
-  height: 10vh;
+  width: 2em;
+  height: 4em;
   max-width: none;
   padding-left: 0px;
 }
@@ -426,8 +445,31 @@
 
 .link-block-3 {
   display: block;
-  margin-right: 30px;
+  margin-right: 0px;
   text-align: right;
+}
+
+.text-span-4 {
+  overflow: hidden;
+}
+
+.text-span-5 {
+  display: block;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.name {
+  margin-top: -142px;
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.text-block-4 {
+  padding: 18px 18px 18px 0px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 479px) {
@@ -471,6 +513,14 @@
     padding-left: 0px;
   }
 
+  .container {
+    position: static;
+  }
+
+  .bottom-text {
+    margin-right: 0px;
+  }
+
   .grid {
     margin-right: 0px;
     margin-left: 0px;
@@ -481,6 +531,10 @@
     width: 90vw;
     margin-left: 0px;
     padding-left: 0px;
+  }
+
+  .divvy.link-block {
+    width: auto;
   }
 
   .texty {
@@ -496,6 +550,7 @@
   }
 
   .texty.bloc.about {
+    width: auto;
     padding-left: 0px;
     font-size: 30px;
     text-align: justify;
@@ -620,6 +675,10 @@
 
   .column-2 {
     padding-left: 242px;
+  }
+
+  .name.tj {
+    font-size: 49px;
   }
 }
 
