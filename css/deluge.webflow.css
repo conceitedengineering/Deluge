@@ -397,8 +397,8 @@
 }
 
 .image-6 {
-  width: 4vh;
-  max-width: 33vh;
+  width: 2em;
+  max-width: none;
   padding-left: 0px;
 }
 
@@ -593,8 +593,8 @@
   }
 
   .image-6 {
-    width: 5vh;
-    max-width: 20vh;
+    width: 2em;
+    max-width: none;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
