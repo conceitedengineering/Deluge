@@ -397,7 +397,8 @@
 }
 
 .image-6 {
-  width: 1em;
+  width: auto;
+  height: 10vh;
   max-width: none;
   padding-left: 0px;
 }
@@ -408,6 +409,11 @@
   top: auto;
   right: 0%;
   bottom: 0%;
+  margin-top: -94px;
+  -webkit-transform: translate3d(0px, 0px, 90px);
+  transform: translate3d(0px, 0px, 90px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 .column-2 {
@@ -416,6 +422,12 @@
 
 .columns-2 {
   margin-top: -140px;
+}
+
+.link-block-3 {
+  display: block;
+  margin-right: 30px;
+  text-align: right;
 }
 
 @media screen and (max-width: 479px) {
@@ -595,7 +607,7 @@
   }
 
   .image-6 {
-    width: 0.5em;
+    width: auto;
     max-width: none;
     -webkit-transform: none;
     -ms-transform: none;
