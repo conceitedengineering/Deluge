@@ -397,7 +397,7 @@
 }
 
 .image-6 {
-  width: 2em;
+  width: 1em;
   max-width: none;
   padding-left: 0px;
 }
@@ -485,6 +485,8 @@
 
   .texty.bloc.about {
     padding-left: 0px;
+    font-size: 30px;
+    text-align: justify;
   }
 
   .image-2 {
@@ -593,7 +595,7 @@
   }
 
   .image-6 {
-    width: 2em;
+    width: 0.5em;
     max-width: none;
     -webkit-transform: none;
     -ms-transform: none;
