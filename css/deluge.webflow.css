@@ -159,9 +159,15 @@
 }
 
 .texty.artist.blocktext {
+  width: 90vw;
   font-size: 20px;
   line-height: 24px;
   text-align: justify;
+}
+
+.texty.artist.tiny {
+  width: 90vw;
+  font-size: 16px;
 }
 
 .texty.title {
@@ -172,6 +178,10 @@
   line-height: 60px;
   font-weight: 700;
   letter-spacing: -3px;
+}
+
+.texty.title.quirky {
+  width: auto;
 }
 
 .texty.bloc {
@@ -195,7 +205,7 @@
   overflow: visible;
   -webkit-transform: translate3d(0px, 0px, -143px);
   transform: translate3d(0px, 0px, -143px);
-  font-size: 12px;
+  font-size: 16px;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
@@ -285,7 +295,7 @@
 .lottie-animation-2 {
   display: block;
   max-height: 100vh;
-  max-width: 45vw;
+  max-width: 40vw;
   margin-top: 100px;
   margin-left: 276px;
   padding-top: 20px;
@@ -367,11 +377,11 @@
 
 .container-5 {
   overflow: visible;
-  max-width: 75vw;
+  max-width: 90vw;
 }
 
 .image-5 {
-  max-width: 75vw;
+  max-width: 90vw;
 }
 
 .text-span-3 {
@@ -416,9 +426,12 @@
 }
 
 .image-6 {
-  width: 2em;
-  height: 4em;
+  width: 10em;
+  height: 10em;
   max-width: none;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  padding-bottom: 0px;
   padding-left: 0px;
 }
 
@@ -428,7 +441,7 @@
   top: auto;
   right: 0%;
   bottom: 0%;
-  margin-top: -94px;
+  margin-top: -120px;
   -webkit-transform: translate3d(0px, 0px, 90px);
   transform: translate3d(0px, 0px, 90px);
   -webkit-transform-style: preserve-3d;
@@ -451,6 +464,7 @@
 
 .text-span-4 {
   overflow: hidden;
+  font-size: 16px;
 }
 
 .text-span-5 {
@@ -470,6 +484,11 @@
   color: #fff;
   font-size: 20px;
   text-decoration: underline;
+}
+
+.italic-text-2 {
+  font-size: 55px;
+  line-height: 45px;
 }
 
 @media screen and (max-width: 479px) {
@@ -543,7 +562,16 @@
     padding-bottom: 0px;
   }
 
+  .texty.artist {
+    width: 90vw;
+  }
+
+  .texty.artist.tiny {
+    font-size: 16px;
+  }
+
   .texty.title.quirky {
+    width: 90vw;
     font-size: 48px;
     line-height: 45px;
     letter-spacing: -2px;
@@ -598,7 +626,7 @@
 
   .events {
     overflow: visible;
-    margin-top: 2500px;
+    margin-top: 500px;
   }
 
   .image-4 {
@@ -643,12 +671,20 @@
     text-decoration: none;
   }
 
+  .image-5 {
+    max-width: 90vw;
+  }
+
   .text-span-3 {
     font-size: 40px;
   }
 
   .bold-text {
     font-size: 40px;
+  }
+
+  .caption {
+    width: 90vw;
   }
 
   .link-block-2 {
@@ -679,6 +715,10 @@
 
   .name.tj {
     font-size: 49px;
+  }
+
+  .div-block-6 {
+    width: 85vw;
   }
 }
 
