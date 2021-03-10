@@ -700,13 +700,14 @@
   .image-6 {
     width: auto;
     max-width: none;
+    margin-right: 40px;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
   }
 
   .arrow {
-    margin-top: 334px;
+    margin-top: 140px;
   }
 
   .column-2 {
