@@ -391,8 +391,25 @@
   padding-left: 0px;
 }
 
+.image-5.carolina {
+  max-width: 100%;
+}
+
+.image-5.mati {
+  max-width: 100%;
+}
+
+.image-5.m {
+  max-width: 100%;
+}
+
+.image-5.tj {
+  max-width: 100%;
+}
+
 .image-5.ga {
   display: inline-block;
+  max-width: 100%;
 }
 
 .text-span-3 {
