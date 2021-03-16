@@ -385,9 +385,14 @@
 }
 
 .image-5 {
+  display: block;
   max-width: none;
   margin-left: 0px;
   padding-left: 0px;
+}
+
+.image-5.ga {
+  display: inline-block;
 }
 
 .text-span-3 {
@@ -735,5 +740,23 @@
   .div-block-6 {
     width: 85vw;
   }
+}
+
+#w-node-_7e4ae8d7-b713-0e51-c81e-20abe4275e48-9c8045ff {
+  -webkit-align-self: start;
+  -ms-flex-item-align: start;
+  -ms-grid-row-align: start;
+  align-self: start;
+  -ms-grid-column-align: start;
+  justify-self: start;
+}
+
+#w-node-_7e4ae8d7-b713-0e51-c81e-20abe4275e48-630f6254 {
+  -ms-grid-column-align: start;
+  justify-self: start;
+  -webkit-align-self: start;
+  -ms-flex-item-align: start;
+  -ms-grid-row-align: start;
+  align-self: start;
 }
 
